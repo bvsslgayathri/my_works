@@ -1,0 +1,26 @@
+this tag component allows an arduino board to connect to the internet
+iot is the network of phsical objects with electronics ,software ,sensors to collect and exchange datat
+it allows to objects to be sensed and controll remotely across existing netwwork 
+
+Pros 
+It can remotely handle the volume and home lights as well.
+It helps the user to plan their day and get things done automatically.
+
+It has a good auto-unlock feature and as soon as the user arrives near the door it opens automatically.
+It is integrated with gestural mechanics 
+
+It includes integrated mapping sensors and drives system.
+Helps to develop more focus and energy by 
+It provides a unique and rich feature of children control.
+Comes with a round battery with high performance.
+
+It has an open source design.
+
+https://www.rfwireless-world.com/Terminology/GPS-Sensor-function-and-working.html
+
+
+
+
+
+
+
