@@ -1,0 +1,54 @@
+<html>
+<body>
+
+<canvas width="700" height="320" style="margin-top:30px;display: block;padding-left:;margin: auto; " id="mycanvas">
+</canvas>
+<script type="text/javascript">
+	var canvas=document.getElementById("mycanvas");
+	var ctx=canvas.getContext("2d");
+	
+
+	var dragonImage=new Image();
+	dragonImage.src="";
+	var dragonImages=[];
+	var dragonImagesUrls=[];
+	for(var i=0;i<dragonImageUrls.length;i++){
+		var dragonImage=new Image();
+		dragonImage.src=dragonImageUrls[i];
+//add dragon img into fresh array
+		dragonImages.push(dragonImage)
+	}
+	var dragon={};
+	dragon.images=dragonImages;
+	dragon.x=300;
+	dragon.y=100;
+	dragon.width=50;
+	dragon.height=50;
+	dragon.speedY=0;
+
+
+	var counter=0;
+
+	function drawObject(object) {
+		// body...
+		var maxIndexImage=object.images.length;
+		ctx.drawImage(object.images[counter%object.images.length],object.x,object.y,object.width,object.height);
+	}
+
+	function update(){
+		counter++;
+		ctx.fillStyle="#000000";
+	ctx.fillRect(0,0,700,320);
+	drawObject(dragon);
+	
+
+	}
+    //fun name,time in ms
+	setInterval(update,50);
+
+	
+
+
+</script>
+</body>
+</html>

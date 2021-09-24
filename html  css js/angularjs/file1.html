@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function blind(){
+			var input=document.getElementById('i');
+			var label=document.getElementById('l');
+			if(window.innerHTML)
+			label.innerHTML=input.value;
+		else
+			label.innerText=input.value;
+
+		};
+	</script>
+</head>
+<body>
+enter text:<input type="text" id="i" onkeyup="blind()"/>
+<br/>
+view text<label id="l">  </label>
+</body>
+</html>

@@ -1,0 +1,27 @@
+html and css:
+animation: highway 20s linear infinite;
+for animation
+@keyframes highway
+{
+	100%{
+		transform: translateX(-3400px);
+	}
+}
+
+some css operations
+.highway
+{
+	height: 200px;
+	width: 500%;
+	display: block;
+	background-image: url(road.jpg);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	background-repeat: repeat-x;
+	
+	animation: highway 10s linear infinite;
+
+}

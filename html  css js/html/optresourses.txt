@@ -1,0 +1,19 @@
+ptional Resources
+I originally placed these optional resources at the end of Week Two. But students like them so much I am putting them here at the beginning instead. The textbook I link to throughout the course has nice, short chapters that go well with nice short lectures. These other (free) online resources are just as good if not maybe even a little better in some cases. So feel free to read them now or at the end of the class to help reinforce what you learn over the next few weeks.
+
+W3Schools - Optional
+
+Many people do not like the W3Schools approach to teaching web concepts. However, many students really appreciate the ability to manipulate existing HTML code and see (immediately) what it does. So if you would like the ability to write and test snippets of code, this is a good resource. Don't forget that you still need to validate your code.
+
+http://www.w3schools.com/html/default.asp
+
+Codecademy - Optional and more of a long-term prospect
+If you are looking for even more hands-on practice many people use the Codecademy website. This site awards badges as you complete skills. This site is free, but registration is required. My advice is to make sure you are doing more than just trying to "get through," and focusing on the concepts that you are practicing.
+
+Lecture Slides
+Slides for all of the lectures are provided in two formats below:
+
+intro-html-slides-pdf.zip
+intro-html-slides-ppt.zip
+Please note, there may be some typos in these slides since they were uploaded before some corrections were made to the videos. One that I know of is 01-04 Slide 6. It says "Microsoft" when it should say "Mozilla"ii
+

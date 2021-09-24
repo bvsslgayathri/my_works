@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<canvas style="margin-top:30px;display:block;padding-left:0;padding-right:0;margin-left:auto;margin-right:auto;" id="mycanvas" width="520" height="520" >
+
+</canvas>
+<marquee> <i>##mission helix-#learngrowinspire -by gayathri</i></marquee>
+<script type="text/javascript">
+	var canvas= document.getElementById("mycanvas");
+	var ctx=canvas.getContext("2d");
+	
+	ctx.fillStyle="#000000";
+	
+	ctx.fillRect(0,0,520,520);
+	
+	var alienImage=new Image();
+	alienImage.src ="https://i.imgur.com/tvJOu59.png"
+	
+		function drawObject(object){
+			//Find current index of image to be used.
+			var currentImageIndex = counter%object.images.length;
+			//Access image from array of images
+			var currentImage = object.images[currentImageIndex];
+			//Draw of canvas
+			ctx.drawImage(currentImage,object.x-(object.width/2),object.y-(object.height/2),object.width,object.height);
+		}
+	
+	
+</script>
+</body>
+</html>

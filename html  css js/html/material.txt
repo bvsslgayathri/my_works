@@ -1,0 +1,12 @@
+Required Materials
+TEXTBOOK:
+It is really difficult to find a textbook that focuses on just the basics. In the past I used a textbook that covered too many "extras". The new version of this course (and the entire specialization) will be using an online resource from Shay Howe. The link is https://learn.shayhowe.com/html-css/. You can also purchase a paper copy of the book if you prefer, but everything you need is free and online.
+
+This book isn't perfect - it covers more than I would like to cover but it is a really good start. I do my best to direct you to sections that most closely follow what I will be covering in each video lecture.
+
+While you are reading, make sure to look closely for code. This site uses CodePen - a tool that lets you see the code and the output. Clicking on the code will also take you to the CodePen site where you can try changing the code to see what happen.
+
+SOFTWARE:
+The preferred way to code in this class is editor software (Notepad, TextWrangler, Sublime, etc). Recently I have been using Visual Studio Code and I really like it. The software is free and works on most types of computers.
+
+If you do not have the ability to access or install this type of software, there is an online editor at: http://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro

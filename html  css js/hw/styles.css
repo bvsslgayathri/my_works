@@ -1,0 +1,14 @@
+body{
+	/* changing font color to red*/
+ color:red;
+}
+h1{
+	/* changing font color to grey*/
+	color:grey;
+	/* changing font style to verdana*/
+	font-family:verdana;
+	/* changing background color to blue*/
+	background-color: blue;
+
+	
+}
